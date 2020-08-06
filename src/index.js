@@ -10,3 +10,7 @@ let instance = new vidbg('.video', {
 });
 
 let rocket = new Rellax('.rocket');
+
+if(document.body.clientWidth <= 576) {
+    rocket.destroy();
+}
