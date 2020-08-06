@@ -9,6 +9,7 @@ body {
     background-color: #010001;
     padding-top: 54px;
     font-family: $fontRoboto;
+    color: #ffffff;
 }
 
 a {
@@ -16,3 +17,6 @@ a {
 }
 
 @import './header.scss';
+@import './main.scss';
+@import './video.scss';
+@import './features.scss';
