@@ -8,7 +8,7 @@ const gulp = require('gulp'),
     browserSync  = require('browser-sync');
 
 const convertCss = (done) => {
-    gulp.src('./scss/**/*.scss')
+    gulp.src('./scss/**/style.scss')
     .pipe(sourcemaps.init())
     .pipe(sass({
         errLogToConsole: true,

@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/aos.css">
     <link rel="stylesheet" href="./css/vidbg.css">
     <link rel="stylesheet" href="./css/style.min.css">
     <title>Space X</title>
 </head>
 <body>
     <header class="header">
-        <img src="./img/logo.svg" alt="logo" class="logo">
+        <img src="./img/logo.svg" alt="logo" class="logo" data-aos="zoom-out-right">
         <nav class="main-nav">
-            <ul class="list">
+            <ul class="list" data-aos="zoom-out-up">
                 <li class="item"><a href="#">Falcon 9</a></li>
                 <li class="item"><a href="#">Falcon Heavy</a></li>
                 <li class="item"><a href="#">Dragon</a></li>
@@ -21,7 +22,7 @@
         </nav>
 
         <nav class="secondary-nav">
-            <ul class="list">
+            <ul class="list" data-aos="zoom-out-left">
                 <li class="item"><a href="#">About</a></li>
                 <li class="item"><a href="#">Gallery</a></li>
                 <li class="item"><a href="#">Shop</a></li>
@@ -30,11 +31,11 @@
     </header>
 
     <section class="main">
-        <h1 class="title">Falcon Heavy</h1>
-        <p class="desc">The most powerful operational rocket in the world by a factor of two</p>
+        <h1 class="title" data-aos="flip-up" data-aos-delay="500">Falcon Heavy</h1>
+        <p class="desc" data-aos="flip-down" data-aos-delay="900">The most powerful operational rocket in the world by a factor of two</p>
     </section>
 
-    <div class="video"></div>
+    <div class="video" data-aos="fade-up" data-aos-delay="1200"></div>
 
     <section class="features">
         <div class="overview">
@@ -104,6 +105,7 @@
 
     <script src="./src/vidbg.js"></script>
     <script src="./src/rellax.min.js"></script>
+    <script src="./src/aos.js"></script>
     <script src="./src/index.js"></script>
 </body>
 </html>

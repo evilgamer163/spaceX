@@ -1,1 +1,0 @@
-{"version":3,"sources":["video.scss"],"names":[],"mappings":"AAAA,OACI,gBAAiB,CACjB,SAAU,CACV,aAAc,CACd,YAAa","file":"video.min.css","sourcesContent":[".video {\n    max-width: 1230px;\n    width: 90%;\n    margin: 0 auto;\n    height: 750px;\n}"]}
